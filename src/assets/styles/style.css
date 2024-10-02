@@ -78,7 +78,7 @@ body {
 #password {
   padding: 16px;
 
-  width: 100%;
+  /* width: 100%; */
 
   border-radius: 4px;
   border: 1px solid var(--dark-30);
@@ -97,4 +97,38 @@ body {
 
 #password {
   margin-bottom: 24px;
+}
+
+#formulario-acesso section {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.secao-lembrar {
+  display: flex;
+  align-items: center;
+}
+
+#lembrar {
+  border: 1px solid var(--dark-40);
+}
+
+.secao-lembrar p {
+  margin-left: 12px;
+
+  font-family: Archivo;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17.41px;
+}
+
+.esqueci-a-senha {
+  color: var(--brand-color);
+
+  font-family: Archivo;
+  font-size: 16px;
+  line-height: 17.41px;
+  font-weight: 500;
 }
