@@ -3,98 +3,98 @@
 @import url(style-768.css);
 @import url(style-375.css);
 
-@media (min-width: 769px) {
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-    display: flex;
+  display: flex;
 
-    width: 100vw;
-    height: 1024px;
-  }
+  width: 100vw;
+  height: 1024px;
+}
 
-  #imagem-Login {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
+#imagem-Login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
 
-    width: 49.897%;
-    height: 100%;
+  width: 49.897%;
+  height: 100%;
 
-    background-color: #f3fff2;
-  }
+  background-color: #f3fff2;
+}
 
-  #imagem-Login img {
-    width: inherit;
-  }
+#imagem-Login img {
+  width: inherit;
+}
 
-  #formulario-acesso {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#formulario-acesso {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    width: 50.103%;
-  }
+  width: 50.103%;
+}
 
-  #formulario-acesso form {
-    display: flex;
-    flex-direction: column;
-  }
+#formulario-acesso form {
+  display: flex;
+  flex-direction: column;
 
-  #formulario-acesso h5 {
-    font-family: Archivo;
-    font-weight: 500;
-    font-size: 20px;
-    list-style: 21.76px;
+  width: 41.583%;
+}
 
-    color: var(--dark-10);
-  }
+#formulario-acesso h5 {
+  font-family: Archivo;
+  font-weight: 500;
+  font-size: 20px;
+  list-style: 21.76px;
 
-  #formulario-acesso h1 {
-    font-family: Archivo;
-    font-weight: 600;
-    font-size: 32px;
-    list-style: 34.82px;
+  color: var(--dark-10);
+}
 
-    color: var(--dark-10);
-  }
+#formulario-acesso h1 {
+  font-family: Archivo;
+  font-weight: 600;
+  font-size: 32px;
+  list-style: 34.82px;
 
-  #formulario-acesso label {
-    font-family: Archivo;
-    font-weight: 400;
-    font-size: 18px;
-    list-style: 19.58px;
+  color: var(--dark-10);
+}
 
-    margin-bottom: 12px;
+#formulario-acesso label {
+  font-family: Archivo;
+  font-weight: 400;
+  font-size: 18px;
+  list-style: 19.58px;
 
-    color: var(--dark-10);
-  }
+  margin-bottom: 12px;
 
-  #email,
-  #password {
-    width: 400px;
+  color: var(--dark-10);
+}
 
-    padding: 16px;
+#email,
+#password {
+  padding: 16px;
 
-    border-radius: 4px;
-    border: 1px solid var(--dark-30);
-    background-color: var(--dark-40);
+  width: 100%;
 
-    font-family: Archivo;
-    font-weight: 400;
-    font-size: 16px;
-    list-style: 17.41px;
-    color: var(--dark-20);
-  }
+  border-radius: 4px;
+  border: 1px solid var(--dark-30);
+  background-color: var(--dark-40);
 
-  #email {
-    margin-bottom: 32px;
-  }
+  font-family: Archivo;
+  font-weight: 400;
+  font-size: 16px;
+  list-style: 17.41px;
+  color: var(--dark-20);
+}
 
-  #password {
-    margin-bottom: 24px;
-  }
+#email {
+  margin-bottom: 32px;
+}
+
+#password {
+  margin-bottom: 24px;
 }

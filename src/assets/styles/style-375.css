@@ -1,35 +1,17 @@
 @media (max-width: 375px) {
   #imagem-Login {
-    display: none;
+    display: none !important;
   }
 
   #formulario-acesso {
-    display: flex;
-    align-items: center;
-
-    width: 50.103%;
-  }
-
-  #formulario-acesso form {
-    display: flex;
-    flex-direction: column;
+    width: 100% !important;
   }
 
   #formulario-acesso h5 {
-    font-family: Archivo;
-    font-weight: 500;
-    font-size: 16px;
-    list-style: 17.41px;
-
-    color: var(--dark-10);
+    font-size: 16px !important;
   }
 
   #formulario-acesso h1 {
-    font-family: Archivo;
-    font-weight: 600;
-    font-size: 24px;
-    list-style: 26.11px;
-
-    color: var(--dark-10);
+    font-size: 24px !important;
   }
 }
