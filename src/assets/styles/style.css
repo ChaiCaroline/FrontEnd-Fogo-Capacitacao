@@ -165,3 +165,18 @@ body {
 
   background-color: var(--dark-10);
 }
+
+.text-sem-coonta {
+  text-align: center;
+
+  font-family: Archivo;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 21.76px;
+
+  color: var(--dark-10);
+}
+
+.text-sem-coonta span {
+  color: var(--brand-color);
+}
