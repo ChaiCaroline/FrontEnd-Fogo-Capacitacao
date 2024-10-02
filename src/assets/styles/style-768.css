@@ -2,4 +2,30 @@
   #imagem-Login {
     display: none;
   }
+
+  #formulario-acesso {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+  }
+
+  #formulario-acesso h5 {
+    font-family: Archivo;
+    font-weight: 500;
+    font-size: 20px;
+    list-style: 21.76px;
+
+    color: var(--dark-10);
+  }
+
+  #formulario-acesso h1 {
+    font-family: Archivo;
+    font-weight: 600;
+    font-size: 32px;
+    list-style: 34.82px;
+
+    color: var(--dark-10);
+  }
 }
