@@ -31,6 +31,8 @@
           name="password"
           id="password"
           placeholder="0123456789"
+          oninput="this.value = this.value.replace(/[^0-9]/g, '');"
+          inputmode="numeric"
         />
         <span id="msgsenha"></span>
         <section>
