@@ -1,0 +1,67 @@
+@import url(fonts.css);
+@import url(color.css);
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 1024px;
+
+  gap: 15px;
+
+  position: absolute;
+
+  background-color: #f3fff2;
+}
+
+img {
+  width: 30%;
+}
+
+#container-texto h1 {
+  margin: 0;
+
+  font-family: Archivo;
+  font-weight: 800;
+  font-size: 100px;
+
+  color: var(--dark-10);
+}
+
+#container-texto h2 {
+  font-family: Archivo;
+  font-weight: 500;
+  font-size: 30px;
+
+  color: var(--dark-10);
+}
+
+#container-texto button {
+  padding: 10px;
+
+  border-radius: 5px;
+
+  background-color: var(--brand-color);
+  border: 1px solid var(--brand-color);
+
+  font-family: Archivo;
+  font-weight: 500;
+  font-size: 30px;
+
+  color: var(--dark-50);
+}
+
+#container-texto button:hover {
+  background-color: var(--dark-50);
+  border: 1px solid var(--brand-color);
+
+  color: var(--brand-color);
+
+  cursor: pointer;
+}
