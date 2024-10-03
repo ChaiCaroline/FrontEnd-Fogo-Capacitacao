@@ -4,22 +4,20 @@ function validacaoCampos(email, senha) {
   const spanMessagemEmail = document.getElementById("msgemail");
   const spanMessagemSenha = document.getElementById("msgsenha");
 
-  email.style.border = "";
+  email.className = "";
   spanMessagemEmail.innerHTML = "";
-  senha.style.border = "";
+  senha.className = "";
   spanMessagemSenha.innerHTML = "";
 
   if (email.value.length < 1) {
-    spanMessagemEmail.innerHTML =
-      "<font color='red'>E-mail é obrigatório</font>";
-    email.style.border = "2px solid red";
+    spanMessagemEmail.innerHTML = "E-mail é obrigatório";
+    email.className = "mensagemDeErro";
     isValid = false;
   }
 
   if (senha.value.length < 1) {
-    spanMessagemSenha.innerHTML =
-      "<font color='red'>Senha é obrigatória</font>";
-    senha.style.border = "2px solid red";
+    spanMessagemSenha.innerHTML = "Senha é obrigatória";
+    senha.className = "mensagemDeErro";
     isValid = false;
   }
 

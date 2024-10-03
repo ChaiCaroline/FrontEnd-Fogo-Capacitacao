@@ -91,14 +91,6 @@ body {
   color: var(--dark-20);
 }
 
-#email {
-  margin-bottom: 32px;
-}
-
-#password {
-  margin-bottom: 24px;
-}
-
 #formulario-acesso section {
   display: flex;
   justify-content: space-between;
@@ -181,10 +173,19 @@ body {
   color: var(--brand-color);
 }
 
-input[type="email"]:valid {
-  border-color: var(--brand-color);
+.mensagemDeErro {
+  border: 2px solid red !important;
 }
 
-input[type="email"]:invalid {
-  border-color: red;
+#msgemail,
+#msgsenha {
+  color: red;
+}
+
+#msgemail {
+  margin-bottom: 32px;
+}
+
+#msgsenha {
+  margin-bottom: 24px;
 }
