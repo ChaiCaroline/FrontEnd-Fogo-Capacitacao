@@ -180,3 +180,11 @@ body {
 .text-sem-coonta span {
   color: var(--brand-color);
 }
+
+input[type="email"]:valid {
+  border-color: var(--brand-color);
+}
+
+input[type="email"]:invalid {
+  border-color: red;
+}
