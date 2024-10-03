@@ -14,7 +14,7 @@
       />
     </figure>
     <main id="formulario-acesso">
-      <form name="formulario" onsubmit="validation()">
+      <form name="formulario" id="formulario">
         <h5>Bem-vindo de volta</h5>
         <h1>Faça login na sua conta</h1>
         <label>E-mail</label>
@@ -32,6 +32,7 @@
           id="password"
           placeholder="0123456789"
         />
+        <span id="msgsenha"></span>
         <section>
           <div class="secao-lembrar">
             <input type="checkbox" name="lembrar" id="lembrar" />
@@ -39,9 +40,7 @@
           </div>
           <p class="esqueci-a-senha">Esqueci a senha?</p>
         </section>
-        <button type="submit" id="btn-conta" onclick="validaçãoCampos( , )">
-          Entrar na Conta
-        </button>
+        <button type="submit" id="btn-conta">Entrar na Conta</button>
         <button id="btn-google">
           <img src="./assets/images/google.svg" alt="Simbolo do Google" />
           Ou faça login com o Google
@@ -51,6 +50,6 @@
         </h6>
       </form>
     </main>
-    <script src="scripts/validation.js"></script>
+    <script src="scripts/validacao.js"></script>
   </body>
 </html>
