@@ -1,31 +1,32 @@
 @import url(fonts.css);
 @import url(color.css);
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
   display: flex;
   justify-content: center;
   align-items: center;
 
-  width: 100vw;
   height: 100vh;
 
-  gap: 15px;
+  padding: 0 10%;
 
-  position: absolute;
+  gap: 15px;
 
   background-color: #f3fff2;
 }
 
 img {
-  width: 30%;
+  width: 20%;
 }
 
 #container-texto h1 {
@@ -33,7 +34,7 @@ img {
 
   font-family: Archivo;
   font-weight: 800;
-  font-size: 10rem;
+  font-size: 8rem;
 
   color: var(--dark-10);
 }
@@ -41,13 +42,14 @@ img {
 #container-texto h2 {
   font-family: Archivo;
   font-weight: 500;
-  font-size: 5rem;
+  font-size: 3rem;
 
   color: var(--dark-10);
 }
 
 #container-texto button {
-  padding: 10px;
+  padding: 20px;
+  margin-top: 30px;
 
   border-radius: 5px;
 
@@ -55,8 +57,8 @@ img {
   border: 1px solid var(--brand-color);
 
   font-family: Archivo;
-  font-weight: 500;
-  font-size: 5rem;
+  font-weight: 400;
+  font-size: 3rem;
 
   color: var(--dark-50);
 }
@@ -68,4 +70,22 @@ img {
   color: var(--brand-color);
 
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    width: 40%;
+  }
+
+  #container-texto {
+    text-align: center;
+  }
 }
