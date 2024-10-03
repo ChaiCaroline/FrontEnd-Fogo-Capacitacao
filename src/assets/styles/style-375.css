@@ -1,6 +1,7 @@
 @media (max-width: 375px) {
   body {
     height: 812px !important;
+    justify-content: center !important;
   }
 
   #imagem-Login {
@@ -8,8 +9,12 @@
   }
 
   #formulario-acesso {
+    width: 87.434% !important;
+  }
+
+  #formulario-acesso form {
     width: 100% !important;
-    padding: 0 5%;
+    min-width: 0 !important;
   }
 
   #formulario-acesso h5 {
