@@ -1,6 +1,7 @@
 ## 🔥 Projeto de Capacitação - Unidade Fogo
 
-Aqui está um exemplo de um README que pode ser usado para o seu projeto de landing page desenvolvido com HTML, CSS e JavaScript. Sinta-se à vontade para personalizar as informações de acordo com os detalhes específicos do projeto:
+Este projeto consistiu no desenvolvimento de uma landing page utilizando apenas HTML, CSS e JavaScript puro. Foi uma excelente oportunidade para reforçar meus conhecimentos e colocar em prática o uso de HTML semântico, juntamente com a aplicação de commits contínuos ao longo do processo.
+Desde o início, foquei em garantir a máxima responsividade, para que a página se adaptasse a qualquer tamanho de tela, proporcionando uma boa experiência de usuário em dispositivos móveis e desktops. O projeto foi deployado no Netlify, uma plataforma que uso frequentemente para hospedar meus projetos.
 
 ## 📄 Descrição
 
@@ -23,6 +24,8 @@ Você pode acessar a landing page ao vivo [clicando aqui](https://desafiologinfo
 ## 📸 Demonstração
 
 ![Landing Page Screenshot](https://private-user-images.githubusercontent.com/117395143/373370624-f9e74d5c-bd40-4730-b0fc-c2d53e6aa42d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjc5ODAyNDgsIm5iZiI6MTcyNzk3OTk0OCwicGF0aCI6Ii8xMTczOTUxNDMvMzczMzcwNjI0LWY5ZTc0ZDVjLWJkNDAtNDczMC1iMGZjLWMyZDUzZTZhYTQyZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAwM1QxODI1NDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04YWE2YzQ4ZTA5YzA1Yjk3MjdiYmI5NjE2YTRkOTZjYWI0ZWY2ZjcwMmI2NjQ5ZTZkMDRmNTI4NTIxMGU0MTRhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.3BPhSFsOeSqmvMMWFSfm7k4xA5Jc7t8g8_beBzXj1po)
+
+![image](https://github.com/user-attachments/assets/af4f3439-5e6a-4307-8bbe-6a22fbff1116)
 
 ## 🔧 Como Executar o Projeto
 
