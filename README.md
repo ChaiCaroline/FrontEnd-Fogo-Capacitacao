@@ -1,11 +1,11 @@
 ## 🔥 Projeto de Capacitação - Unidade Fogo
 
-Este projeto consistiu no desenvolvimento de uma landing page utilizando apenas HTML, CSS e JavaScript puro. Foi uma excelente oportunidade para reforçar meus conhecimentos e colocar em prática o uso de HTML semântico, juntamente com a aplicação de commits contínuos ao longo do processo.
+Este projeto consistiu no desenvolvimento de uma landing page utilizando apenas **HTML**, **CSS** e **JavaScript puro** . Foi uma excelente oportunidade para reforçar meus conhecimentos e colocar em prática o uso de HTML semântico, juntamente com a aplicação de commits contínuos ao longo do processo.
 Desde o início, foquei em garantir a máxima responsividade, para que a página se adaptasse a qualquer tamanho de tela, proporcionando uma boa experiência de usuário em dispositivos móveis e desktops. O projeto foi deployado no Netlify, uma plataforma que uso frequentemente para hospedar meus projetos.
 
 ## 📄 Descrição
 
-Este projeto é uma **Landing Page** desenvolvida utilizando **HTML**, **CSS** e **JavaScript**. O objetivo da página é fornecer uma interface moderna e responsiva para demonstrar um login de forma clara e atrativa. A página foi criada como parte de um desafio com foco na construção de uma UI responsiva, boas práticas de estrutura de código e interatividade simples.
+Este projeto é uma **Landing Page** desenvolvida utilizando **HTML**, **CSS** e **JavaScript**. O objetivo da página é fornecer uma interface moderna e responsiva para demonstrar um login de forma clara e atrativa. A página foi criada como parte de um desafio com foco na boas práticas de estrutura de código e interatividade simples.
 
 Você pode acessar a landing page ao vivo [clicando aqui](https://desafiologinfogo.netlify.app/).
 
