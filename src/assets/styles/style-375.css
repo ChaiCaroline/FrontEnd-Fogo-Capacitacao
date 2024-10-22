@@ -1,7 +1,8 @@
 @media (max-width: 375px) {
   body {
-    height: 812px !important;
+    height: auto !important;
     justify-content: center !important;
+    min-height: 100vh;
   }
 
   #imagem-Login {
@@ -17,7 +18,16 @@
     min-width: 0 !important;
   }
 
-  #formulario-acesso h5 {
+  #formulario label,
+  .secao-lembrar p,
+  .esqueci-a-senha {
+    font-size: 14px !important;
+  }
+
+  #formulario-acesso h5,
+  #btn-conta,
+  #btn-google,
+  #formulario-acesso h6 {
     font-size: 16px !important;
   }
 

@@ -1,4 +1,10 @@
 @media (max-width: 768px) {
+  body {
+    height: auto !important;
+    justify-content: center !important;
+    min-height: 100vh;
+  }
+
   #imagem-Login {
     display: none !important;
   }
